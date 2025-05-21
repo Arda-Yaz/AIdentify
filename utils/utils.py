@@ -26,6 +26,6 @@ def get_user_id():
     return user_id
 
 def language():
-    selected = st.selectbox("Choose Language / Dil Seçiniz", ["tr", "en"], key="language_select")
+    selected = st.radio("Choose Language / Dil Seçiniz", ["EN", "TR"], key="language_select")
     st.session_state.language = selected
     return st.session_state.language

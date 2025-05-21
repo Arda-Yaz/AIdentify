@@ -4,26 +4,22 @@ st.set_page_config(page_title="AIdentify", layout="centered")
 from questions import questions
 from utils.utils import get_user_id, language
 
-
-
-st.title("🧠 Kişilik Testi / Personality Test")
-
-
-user_id = get_user_id()
-
-
-lang = language()
-
 texts = {
-    "tr": {
+    "TR": {
+        "head": "🧠 Kişilik Testi",
         "title": "Kişilik Testine Hoş Geldiniz",
         "intro": "Lütfen aşağıdaki soruları cevaplayınız."
     },
-    "en": {
+    "EN": {
+        "head": "🧠 Personality Test",
         "title": "Welcome to the Personality Test",
         "intro": "Please answer the questions below."
     }
 }
+lang = language()
+st.title(texts[lang]["head"])
+
+user_id = get_user_id()
 
 st.title(texts[lang]["title"])
 st.write(texts[lang]["intro"])

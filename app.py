@@ -33,6 +33,7 @@ for key, text in questions.items():
     response = st.slider(text[lang], 1, 5, 3, key=slider_key)
     answers[key] = response
 
+st.write(answers)
 # Gönder butonu
 if st.button("Cevapları Kaydet / Submit Answers"):
     st.success("Cevaplar kaydedildi!")

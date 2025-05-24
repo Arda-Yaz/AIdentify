@@ -1,122 +1,352 @@
 questions = {
     "q1": {
-        "TR": "Başkalarının duygularına karşı duyarlı biri olduğumu düşünürüm.",
-        "EN": "I consider myself sensitive to the emotions of others.",
-        "trait": "Agreeableness",
+        #Am the life of the party
+        "TR": "Sosyal ortamlarda kendimi canlı ve hareketli hissederim.",
+        "EN": "Am the life of the party",
+        "trait": "Extraversion",
         "reverse": False
     },
     "q2": {
-        "TR": "Yeni deneyimlere açık olmak konusunda bazen çekingen davranabilirim.",
-        "EN": "I can be shy about being open to new experiences.",
-        "trait": "Openness",
+        #Feel little concern for others
+        "TR": "",
+        "EN": "",
+        "trait": "Agreeableness",
         "reverse": True
     },
     "q3": {
-        "TR": "Yaptığım işlerde hep düzenli ve planlı olmaya çalışırım.",
-        "EN": "I always try to be organized and planned in what I do.",
+        #Am always prepared
+        "TR": "",
+        "EN": "",
         "trait": "Conscientiousness",
         "reverse": False
     },
     "q4": {
-        "TR": "Kendimi genellikle içe dönük biri olarak tanımlarım.",
-        "EN": "I generally see myself as an introverted person.",
-        "trait": "Extraversion",
+        #Get stressed out easily
+        "TR": "",
+        "EN": "",
+        "trait": "Neuroticism",
         "reverse": True
     },
     "q5": {
-        "TR": "Küçük şeyler bile beni kolayca strese sokabilir.",
-        "EN": "Even small things can easily stress me out.",
-        "trait": "Neuroticism",
+        #Self-Made question
+        "TR": "Yeni bir fikirle karşılaştığımda hemen reddetmek yerine düşünmeyi tercih ederim.",
+        "EN": "When I encounter a new idea, I prefer to think about it rather than immediately reject it.",
+        "trait": "Openness",
         "reverse": False
     },
     "q6": {
-        "TR": "İnsanlara yardım etmeyi, destek olmayı içtenlikle severim.",
-        "EN": "I sincerely enjoy helping and supporting others.",
-        "trait": "Agreeableness",
+        #Am the life of the party
+        "TR": "Yeni insanlarla tanışmak benim için genellikle heyecan verici bir deneyimdir.",
+        "EN": "Meeting new people is usually an exciting experience for me.",
+        "trait": "Extraversion",
         "reverse": False
     },
     "q7": {
-        "TR": "Sanata veya yaratıcı ifadelere karşı çok ilgim yoktur.",
-        "EN": "I am not very interested in art or creative expression.",
-        "trait": "Openness",
+        #Feel little concern for others
+        "TR": "",
+        "EN": "",
+        "trait": "Agreeableness",
         "reverse": True
     },
     "q8": {
-        "TR": "Eşyalarım dağınık olabilir ama bu beni rahatsız etmez.",
-        "EN": "My belongings may be messy, but that doesn’t bother me.",
+        #Am always prepared
+        "TR": "",
+        "EN": "",
         "trait": "Conscientiousness",
-        "reverse": True
-    },
-    "q9": {
-        "tr": "Kalabalıklarda enerjim yükselir, konuşkan bir yapım vardır.",
-        "EN": "I feel energized in crowds and tend to be talkative",
-        "trait": "Extraversion",
         "reverse": False
     },
-    "q10": {
-        "tr": "Stresli durumlarla baş etmekte bazen zorlanırım.",
-        "EN": "I sometimes struggle to cope with stressful situations.",
+    "q9": {
+        #Get stressed out easily
+        "TR": "",
+        "EN": "",
         "trait": "Neuroticism",
+        "reverse": True
+    },
+    "q10": {
+        #Self-Made question
+        "TR": "Alışılmışın dışındaki yaklaşımlar ilgimi çeker.",
+        "EN": "Approaches outside the usual catch my interest.",
+        "trait": "Openness",
         "reverse": False
     },
     "q11": {
-        "EN": "I often feel anxious, tense, or uneasy.",
-        "TR": "Sıklıkla endişeli, gergin ya da huzursuz hissederim.",
-        "trait": "Neuroticism",
-        "reverse": False
-    },
-    "q12": {
-        "EN": "I enjoy social events and love being around people.",
-        "TR": "Sosyal etkinliklerden keyif alır, insanlarla birlikte olmaktan hoşlanırım.",
+        #Am the life of the party
+        "TR": "Düşüncelerimi rahatça paylaşmaktan çekinmem.",
+        "EN": "I do not hesitate to share my thoughts comfortably.",
         "trait": "Extraversion",
         "reverse": False
     },
+    "q12": {
+        #Feel little concern for others
+        "TR": "",
+        "EN": "",
+        "trait": "Agreeableness",
+        "reverse": True
+    },
     "q13": {
-        "EN": "I keep my belongings and plans well organized.",
-        "TR": "Eşyalarımı ve planlarımı iyi organize ederim.",
+        #Am always prepared
+        "TR": "",
+        "EN": "",
         "trait": "Conscientiousness",
         "reverse": False
     },
     "q14": {
-        "EN": "I find it hard to connect with other people's emotions.",
-        "TR": "Başkalarının duygularıyla bağ kurmakta zorlanırım.",
-        "trait": "Agreeableness",
+        #Get stressed out easily
+        "TR": "",
+        "EN": "",
+        "trait": "Neuroticism",
         "reverse": True
     },
     "q15": {
-        "EN": "I like to think deeply and explore abstract ideas.",
-        "TR": "Derinlemesine düşünmeyi ve soyut fikirleri keşfetmeyi severim.",
+        #Self-Made question
+        "TR": "Felsefe, sanat ya da bilim gibi konulara merak duyarım.",
+        "EN": "I am curious about topics like philosophy, art, or science.",
         "trait": "Openness",
         "reverse": False
     },
     "q16": {
-        "EN": "I stay calm under pressure and rarely feel stressed.",
-        "TR": "Baskı altında sakin kalırım, nadiren stres hissederim.",
-        "trait": "Neuroticism",
-        "reverse": True
-    },
-    "q17": {
-        "EN": "I prefer quiet nights alone over big gatherings.",
-        "TR": "Kalabalık buluşmalardansa sessiz bir geceyi tercih ederim.",
+        "TR": "İnsanlarla uzun süre etkileşimde bulunmak beni yorgun hissettirir.",
+        "EN": "Spending a long time interacting with people makes me feel drained.",
         "trait": "Extraversion",
         "reverse": True
     },
-    "q18": {
-        "EN": "I often forget appointments or lose track of tasks.",
-        "TR": "Randevuları sık unutur veya görevlerin takibini kaybederim.",
-        "trait": "Conscientiousness",
+    "q17": {
+        #Feel little concern for others
+        "TR": "",
+        "EN": "",
+        "trait": "Agreeableness",
         "reverse": True
     },
-    "q19": {
-        "EN": "I am patient and rarely lose my temper with others.",
-        "TR": "Sabırlıyımdır ve başkalarına kolay kolay sinirlenmem.",
-        "trait": "Agreeableness",
+    "q18": {
+        #Am always prepared
+        "TR": "",
+        "EN": "",
+        "trait": "Conscientiousness",
         "reverse": False
     },
-    "q20": {
-        "EN": "I stick to routines and rarely try new things.",
-        "TR": "Rutinlere bağlı kalırım, yeni şeyler denemekte isteksizimdir.",
-        "trait": "Openness",
+    "q19": {
+        #Get stressed out easily
+        "TR": "",
+        "EN": "",
+        "trait": "Neuroticism",
         "reverse": True
     },
+    "q20": {
+        #Self-Made question
+        "TR": "Farklı düşünce tarzlarını anlamaya çalışmak beni geliştirir.",
+        "EN": "Trying to understand different ways of thinking helps me grow.",
+        "trait": "Openness",
+        "reverse": False
+    },
+    "q21": {
+        #Am the life of the party
+        "TR": "Sosyal etkinlikleri planlamayı ve organize etmeyi severim.",
+        "EN": "I enjoy planning and organizing social events.",
+        "trait": "Extraversion",
+        "reverse": False
+    },
+    "q22": {
+        #Feel little concern for others
+        "TR": "",
+        "EN": "",
+        "trait": "Agreeableness",
+        "reverse": True
+    },
+    "q23": {
+        #Am always prepared
+        "TR": "",
+        "EN": "",
+        "trait": "Conscientiousness",
+        "reverse": False
+    },
+    "q24": {
+        #Get stressed out easily
+        "TR": "",
+        "EN": "",
+        "trait": "Neuroticism",
+        "reverse": True
+    },
+    "q25": {
+        # Self-Made question
+        "TR": "Karmaşık ve derin konular üzerine kafa yormaktan hoşlanırım.",
+        "EN": "I like to ponder complex and deep topics.",
+        "trait": "Openness",
+        "reverse": False
+    },
+    "q26": {
+        # Am the life of the party
+        "TR": "Düşüncelerimi konuşarak ifade etmeyi, yazmaya tercih ederim..",
+        "EN": "I prefer expressing my thoughts by speaking rather than writing.",
+        "trait": "Extraversion",
+        "reverse": False
+    },
+    "q27": {
+        # Feel little concern for others
+        "TR": "",
+        "EN": "",
+        "trait": "Agreeableness",
+        "reverse": True
+    },
+    "q28": {
+        # Am always prepared
+        "TR": "",
+        "EN": "",
+        "trait": "Conscientiousness",
+        "reverse": False
+    },
+    "q29": {
+        # Get stressed out easily
+        "TR": "",
+        "EN": "",
+        "trait": "Neuroticism",
+        "reverse": True
+    },
+    "q30": {
+        # Self-Made question
+        "TR": "Var olmayan yerleri ve senaryoları hayal etmekten hoşlanırım.",
+        "EN": "I enjoy imagining places and scenarios that don’t exist.",
+        "trait": "Openness",
+        "reverse": False
+    },
+    "q31": {
+        # Am the life of the party
+        "TR": "Sessiz kalmak zor gelir; sohbet etmeyi tercih ederim.",
+        "EN": "Staying silent is hard for me; I prefer to chat.",
+        "trait": "Extraversion",
+        "reverse": False
+    },
+    "q32": {
+        # Feel little concern for others
+        "TR": "",
+        "EN": "",
+        "trait": "Agreeableness",
+        "reverse": True
+    },
+    "q33": {
+        # Am always prepared
+        "TR": "",
+        "EN": "",
+        "trait": "Conscientiousness",
+        "reverse": False
+    },
+    "q34": {
+        # Get stressed out easily
+        "TR": "",
+        "EN": "",
+        "trait": "Neuroticism",
+        "reverse": True
+    },
+    "q35": {
+        # Self-Made question
+        "TR": "Rutin işler beni çabuk sıkar; yenilik ararım.",
+        "EN": "Routine tasks quickly bore me; I seek novelty.",
+        "trait": "Openness",
+        "reverse": False
+    },
+    "q36": {
+        # Am the life of the party
+        "TR": "Grup içerisinde odak noktası olmaktan rahatsızlık duyarım",
+        "EN": "I am get uncomfortable being the center of attention in a group.",
+        "trait": "Extraversion",
+        "reverse": True
+    },
+    "q37": {
+        # Feel little concern for others
+        "TR": "",
+        "EN": "",
+        "trait": "Agreeableness",
+        "reverse": True
+    },
+    "q38": {
+        # Am always prepared
+        "TR": "",
+        "EN": "",
+        "trait": "Conscientiousness",
+        "reverse": False
+    },
+    "q39": {
+        # Get stressed out easily
+        "TR": "",
+        "EN": "",
+        "trait": "Neuroticism",
+        "reverse": True
+    },
+    "q40": {
+        # Self-Made question
+        "TR": "İlginç veya sıradışı fikirler bana ilham verir.",
+        "EN": "Interesting or unusual ideas inspire me.",
+        "trait": "Openness",
+        "reverse": False
+    },
+    "q41": {
+        # Am the life of the party
+        "TR": "Gruplarda genellikle başkalarının öne çıkmasına izin veririm.",
+        "EN": "In group settings, I often let others take the lead.",
+        "trait": "Extraversion",
+            "reverse": True
+    },
+    "q42": {
+        # Feel little concern for others
+        "TR": "",
+        "EN": "",
+        "trait": "Agreeableness",
+        "reverse": True
+    },
+    "q43": {
+        # Am always prepared
+        "TR": "",
+        "EN": "",
+        "trait": "Conscientiousness",
+        "reverse": False
+    },
+    "q44": {
+        # Get stressed out easily
+        "TR": "",
+        "EN": "",
+        "trait": "Neuroticism",
+        "reverse": True
+    },
+    "q45": {
+        # Self-Made question
+        "TR": "Günlük yaşantım üzerine sık sık derinlemesine düşünürüm.",
+        "EN": "I often think deeply about my daily life.",
+        "trait": "Openness",
+        "reverse": False
+    },
+    "q46": {
+        # Am the life of the party
+        "TR": "“Fotoğraflarda öne çıkmaktansa, arka planda kalmayı tercih ederim.”",
+        "EN": "I prefer to stay in the background rather than stand out in photos.",
+        "trait": "Extraversion",
+        "reverse": False
+    },
+    "q47": {
+        # Feel little concern for others
+        "TR": "",
+        "EN": "",
+        "trait": "Agreeableness",
+        "reverse": True
+    },
+    "q48": {
+        # Am always prepared
+        "TR": "",
+        "EN": "",
+        "trait": "Conscientiousness",
+        "reverse": False
+    },
+    "q49": {
+        # Get stressed out easily
+        "TR": "",
+        "EN": "",
+        "trait": "Neuroticism",
+        "reverse": True
+    },
+    "q50": {
+        # Self-Made question
+        "TR": "Yeni fikirleri keşfetmek ve anlamak beni heyecanlandırır.",
+        "EN": "“I get excited about discovering and understanding new ideas.”",
+        "trait": "Openness",
+        "reverse": False
+    },
+
 }

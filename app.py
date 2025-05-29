@@ -6,12 +6,12 @@ from utils.utils import get_user_id, language
 
 texts = {
     "TR": {
-        "head": "🧠 Kişilik Testi",
+        "head": "🧠 AIdentify",
         "title": "Kişilik Testine Hoş Geldiniz",
         "intro": "Lütfen aşağıdaki soruları cevaplayınız."
     },
     "EN": {
-        "head": "🧠 Personality Test",
+        "head": "🧠 AIdentify",
         "title": "Welcome to the Personality Test",
         "intro": "Please answer the questions below."
     }
@@ -22,19 +22,18 @@ st.title(texts[lang]["head"])
 user_id = get_user_id()
 
 st.title(texts[lang]["title"])
-st.write(texts[lang]["intro"])
+st.subheader(texts[lang]["intro"])
 
-# Soruları göster
-st.subheader("Sorular")
+st.divider()
 answers = {}
 
-for key, text in questions.items():
+for i, (key, text) in enumerate(questions.items(), start=1):
     slider_key = f"{key}_{user_id}"
-    response = st.slider(text[lang], 1, 5, 3, key=slider_key)
+    st.markdown(f"<div style='padding-top: 70px;font-size:18px; font-weight:bold'>{i}.{text[lang]}</div>", unsafe_allow_html=True)
+    response = st.slider("", 1, 5, 3, key=slider_key)
     answers[key] = response
 
 st.write(answers)
-# Gönder butonu
 if st.button("Cevapları Kaydet / Submit Answers"):
     st.success("Cevaplar kaydedildi!")
     st.json(answers)

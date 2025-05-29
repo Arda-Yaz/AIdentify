@@ -19,9 +19,6 @@ def get_user_id():
         user_id = str(uuid.uuid4()) #uuid4 for anonymity
         cookies["user_id"] = user_id
         cookies.save()
-        st.write("Cookie id:" , user_id)
-    else:
-        st.write("Saved id:", user_id)
 
     return user_id
 

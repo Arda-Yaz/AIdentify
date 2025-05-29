@@ -301,3 +301,11 @@ questions = {
     },
 
 }
+
+trait_scores = {
+    "Extraversion": [],
+    "Agreeableness": [],
+    "Conscientiousness": [],
+    "Neuroticism": [],
+    "Openness": []
+}
